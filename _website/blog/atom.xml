@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>quazuo.github.io</id>
+  <title>quazuo-blog Blog</title>
+  <updated>2025-04-15T00:39:27.516093+00:00</updated>
+  <link href="quazuo.github.io"/>
+  <link href="quazuo.github.io/blog/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.io/" version="0.11.12">ABlog</generator>
+  <entry>
+    <id>quazuo.github.io/first-post/</id>
+    <title>First Post</title>
+    <updated>2025-04-15T00:00:00+02:00</updated>
+    <author>
+      <name>Filip Glebocki</name>
+    </author>
+    <content type="html">&lt;p class="ablog-post-excerpt"&gt;&lt;p&gt;World, hello again! This very first paragraph of the post will be used
+as excerpt in archives and feeds. Find out how to control how much is shown
+in &lt;a class="reference external" href="https://ablog.readthedocs.io/manual/post-excerpts-and-images/"&gt;Post Excerpts and Images&lt;/a&gt;. Remember
+that you can refer to posts by file name, e.g. &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;:ref:`first-post`&lt;/span&gt;&lt;/code&gt; results
+in &lt;a class="reference internal" href="../first-post/#first-post"&gt;&lt;span class="std std-ref"&gt;First Post&lt;/span&gt;&lt;/a&gt;. Find out more at &lt;a class="reference external" href="https://ablog.readthedocs.io/manual/cross-referencing-blog-pages/"&gt;Cross-Referencing Blog Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+</content>
+    <link href="quazuo.github.io/first-post/"/>
+    <summary>World, hello again! This very first paragraph of the post will be used
+as excerpt in archives and feeds. Find out how to control how much is shown
+in Post Excerpts and Images. Remember
+that you can refer to posts by file name, e.g. :ref:`first-post` results
+in first-post. Find out more at Cross-Referencing Blog Pages.</summary>
+    <category term="atag" label="atag"/>
+    <published>2025-04-15T00:00:00+02:00</published>
+  </entry>
+</feed>
