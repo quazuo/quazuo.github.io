@@ -28,7 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  quazuo
 
 # Build settings
-theme: no-style-please
+remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
 
