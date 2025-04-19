@@ -1,10 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title: "test post"
 ---
-
-# Welcome
 
 **Hello world**, this is my first Jekyll blog post.
 
-math test: $ \int_{\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi} $ 
+math test: $$ \int_{\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi} $$ 
