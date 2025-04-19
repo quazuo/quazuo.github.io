@@ -2,8 +2,7 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: about me
-    url: about
+  - title: this blog is currently work in progress!
 
   - title: about me
     entries:
@@ -17,13 +16,6 @@ entries:
       show_more: true
       show_more_text: see more...
       show_more_url: archive.html
-
-#  - title: posts by category
-#    post_list:
-#      category: example2
-#      show_more: true
-#      show_more_text: See more posts...
-#      show_more_url: example2-archive.html
 
   - title: rss
     url: feed.xml
