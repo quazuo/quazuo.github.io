@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Filip Glebocki's personal blog
 email: filipglebocki01@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Graphics, C++ and video games
@@ -29,8 +29,18 @@ github_username:  quazuo
 
 # Build settings
 remote_theme: riggraz/no-style-please
+  
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+  lowercase_titles: true # show titles in lowercase in lists
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jektex
 
 lsi: false
 safe: true
@@ -42,6 +52,14 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+ 
+jektex:
+  cache_dir: ".jektex-cache"
+  ignore: ["*.xml"]
+  silent: false
+  macros:
+    - ["\\Q", "\\mathbb{Q}"]
+    - ["\\C", "\\mathbb{C}"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
