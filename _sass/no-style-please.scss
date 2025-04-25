@@ -12,6 +12,10 @@
   //}
   color: white;
   background: #161616;
+  
+  a:visited {
+    color: white;
+  }
 }
 
 body[a="dark"] { @include dark-appearance; }
