@@ -50,12 +50,12 @@ a {
   // box-shadow: inset 0 -4px 0 #ef8b80;
   color: inherit;
   transition: background 0.1s cubic-bezier(.33,.66,.66,1);
-  transition: border 0.1s cubic-bezier(.33,.66,.66,1);
+  # transition: border 0.1s cubic-bezier(.33,.66,.66,1);
 }
 
 a:hover {
   background: #323232;
-  border: 1px solid #707070;
+  # border: 1px solid #707070;
 }
 
 a:visited {
