@@ -11,7 +11,7 @@
   //  filter: invert(1);
   //}
   color: white;
-  background: #030303;
+  background: #161616;
 }
 
 body[a="dark"] { @include dark-appearance; }
@@ -31,8 +31,8 @@ html { height: 100%; scroll-behavior: smooth; }
 
 body {
   color: black;
-  font-family: Arial;
-  font-size: 16px;
+  font-family: Verdana;
+  font-size: 18px;
   line-height: 1.2;
   margin: 0;
   min-height: 100%;
